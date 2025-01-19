@@ -1,29 +1,34 @@
-﻿# -Calculadora-de-Partidas-Rankeadas
+Este projeto consiste em uma calculadora de ranqueadas que calcula o nível de um jogador com base no número de vitórias em suas partidas. A aplicação recebe como entrada a quantidade de vitórias e derrotas, calcula o saldo de vitórias e, com base nesse valor, determina o nível do jogador, que pode ser:
 
- Desafio de Função de Soma em JavaScript
-Descrição:
-Este repositório contém a resolução de um desafio simples de programação em JavaScript. O objetivo é criar uma função que recebe dois números e retorna a soma entre eles.
+Ferro (vitórias < 10)
+Bronze (vitórias entre 11 e 20)
+Prata (vitórias entre 21 e 50)
+Ouro (vitórias entre 51 e 80)
+Diamante (vitórias entre 81 e 90)
+Lendário (vitórias entre 91 e 100)
+Imortal (vitórias >= 101)
+A saída final apresenta o saldo de vitórias e o nível correspondente do jogador.
 
-Desafio:
-Criar uma função chamada soma, que recebe dois números como parâmetros (por exemplo, A e B), e retorna a soma desses números.
-Testar a função utilizando console.log para verificar se o resultado está correto.
-Resolução:
-Neste repositório, você encontrará a implementação da função soma e os testes que comprovam seu funcionamento correto.
+Funcionalidades
+Calcula o saldo de vitórias com base nas vitórias e derrotas fornecidas.
+Determina o nível do jogador de acordo com o número de vitórias.
+Exibe uma mensagem com o saldo de vitórias e o nível do jogador.
+Tecnologias Usadas
+JavaScript: Para a implementação da lógica de cálculo do nível do jogador.
+GitHub: Para o gerenciamento do código-fonte e versão do projeto.
+Como Executar o Projeto
+Clone este repositório para sua máquina local:
 
-Exemplo de Código:
-javascript
-Copiar código
-// Função soma que retorna a soma de dois números
-function soma(A, B) {
-  return A + B;
-}
+bash
+Copiar
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Abra o arquivo index.html (ou qualquer arquivo onde o código JavaScript esteja implementado) em seu navegador para rodar o código.
 
-// Testando a função soma
-console.log(soma(1, 3));  // Esperado: 4
-console.log(soma(-5, 8)); // Esperado: 3
-Como Rodar:
-Clone o repositório.
-Execute o código no seu ambiente de desenvolvimento ou diretamente em um console JavaScript.
-Objetivo do Desafio:
-Praticar o uso de funções em JavaScript.
-Melhorar a lógica de implementação e testes básicos.
+O programa pedirá as entradas de vitórias e derrotas e calculará automaticamente o nível do jogador.
+
+Exemplo de Saída
+Entrada: 60 vitórias e 3 derrotas
+Saída: "O Herói tem de saldo de 60 vitórias está no nível de Ouro."
+Licença
+Este projeto está licenciado sob a MIT License.
+
